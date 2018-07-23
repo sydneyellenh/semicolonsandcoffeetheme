@@ -1,0 +1,30 @@
+{
+	"version": 3,
+	"file": "sass/style.css",
+	"sources": [
+		"sass/style.scss",
+		"sass/variables-site/_variables-site.scss",
+		"sass/typography/_typography.scss",
+		"sass/structure/_site.scss",
+		"sass/media/_media.scss",
+		"sass/pages/_home.scss",
+		"sass/pages/_web_portfolio.scss",
+		"sass/pages/_secondary.scss",
+		"sass/pages/_blog-main.scss",
+		"sass/pages/_blog-single.scss"
+	],
+	"sourcesContent": [
+		"@import 'variables-site/variables-site';\n@import 'typography/typography';\n@import 'structure/site';\n@import 'media/media';\n\n// PAGES\n@import 'pages/home';\n@import 'pages/web_portfolio';\n@import 'pages/secondary';\n@import 'pages/blog-main';\n@import 'pages/blog-single';\n\n",
+		"/* variables and mixins */\n\n// COLORS\n\n$light-yellow: #ffd195;\n$teal: #5d9b84 ;\n$brown: #de7e44 ;\n$dark-blue: #41354d ;\n$white: #fff;\n$grey: #282828;\n$black: #000;\n\n// FONTS\n$body-font: 'Josefin Slab', serif;\n$header-font: 'Pacifico', cursive;",
+		"/* type */\n\n@import 'https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Pacifico';\n@import 'https://use.fontawesome.com/releases/v5.1.0/css/all.css\"';",
+		"/* site - global */",
+		"/* media queries */",
+		"/* home */",
+		"/* web_portfolio */",
+		"/* secondary */",
+		"/* blog-main */",
+		"/* blog-single */"
+	],
+	"mappings": "ACAA,0BAA0B;ACA1B,UAAU;AAEV,OAAO,CAAP,uEAAO;AACP,OAAO,CAAP,0DAAO;ACHP,mBAAmB;ACAnB,mBAAmB;ACAnB,UAAU;ACAV,mBAAmB;ACAnB,eAAe;ACAf,eAAe;ACAf,iBAAiB",
+	"names": []
+}
